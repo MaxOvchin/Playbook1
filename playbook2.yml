@@ -1,0 +1,8 @@
+---
+- name: Install Apache and zagruzka stranici)
+  hosts: all
+  become: yes
+
+
+  roles:
+    - { role:  deploy_web_server_apache, when: ansible_system == 'Linux' } 
