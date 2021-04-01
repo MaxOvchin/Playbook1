@@ -1,5 +1,5 @@
 ---
-- name: Install Apache and zagruzka stranici)
+- name: Install_Apache_and_zagruzka_stranici)
   hosts: all
   become: yes
 
